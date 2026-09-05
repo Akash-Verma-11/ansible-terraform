@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Sensitive Terraform variables
+*.tfvars
+*.tfvars.json
+
+# Private keys
+*.pem
+*.key
