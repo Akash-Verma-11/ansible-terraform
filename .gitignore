@@ -5,10 +5,14 @@
 *.tfstate
 *.tfstate.*
 
-# Sensitive Terraform variables
+# Sensitive files
+*.pem
+*.key
 *.tfvars
 *.tfvars.json
 
-# Private keys
+# SSH/private keys
 *.pem
 *.key
+terra-key-ansible
+terra-key-ansible.pub
